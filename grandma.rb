@@ -14,7 +14,7 @@
 
 if phrase !== phrase.uppercase
   puts "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "I LOVE YOU GRANDMA!"
+elsif phrase = "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 else
   puts "NO, NOT SINCE 1938!"
